@@ -1,74 +1,115 @@
-body{
-	color: #754b23 ;
+body {
+    color: #754b23;
 }
+
 .navbar-nav > li {
-	padding-right:55px;
+    padding-right: 55px;
 }
-.logo{
-	background-image: url(images/logo.png);
-	background-repeat:no-repeat;
-	background-position:center;
-	height: 192px;
+
+.navbar-nav>li>a {
+    color: #754b23;
 }
-.strip{
-	height: 24px;
-	background: #754b23;
+
+.logo {
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 192px;
 }
+
+.strip {
+    height: 24px;
+    background: #754b23;
+}
+
 .intro_statement {
-	text-align: center;
-	margin:2% 0;
-	font-family: 'Great Vibes', cursive;
-	font-size: 23px;
+    text-align: center;
+    margin: 2% 0;
+    font-family: 'Great Vibes', cursive;
+    font-size: 23px;
 }
+
 .description > h3 {
-	margin: 5% 0;
+    margin: 5% 0;
 }
+
 .strips_background {
-	background-image: url(images/strips2.png);
-	height:450px;
+    background-image: url(images/strips2.png);
+    background-repeat: repeat-y;
+    background-size: 38% auto;
+    background-position: 100% 0;
 }
-.dots_image{
-	padding: 5%;
+
+.dots_image {
+    position: relative;
+    right: 3%;
+    top: 15px;
 }
-.warning_message{
-	text-align:center;
-	font-family: 'Great Vibes', cursive;
-	font-size: 18px;
-	margin-top: 4%;
+
+.warning_message {
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 18px;
+    margin-top: 4%;
 }
-.cupcakes_img{
-	height: 295px;
-	margin-bottom: 5%;
+
+.cupcakes_img {
+    height: 295px;
+    margin-bottom: 5%;
 }
-.footer{
-	background: #06b4af;
-	height: 80px;
+
+.footer {
+    background: #06b4af;
+    height: 80px;
 }
+
 .footer > div > p {
-	color: white;
-	font-size: 11px;
+    color: white;
+    font-size: 11px;
 }
-.copyright{
-	margin-top:16%;
+
+.copyright {
+    margin-top: 10%;
+    padding-left: 38%;
 }
-.dots_footer{
-	margin-left: 8%;
-	margin-top: 8%;
+
+.dots_footer {
+    margin-left: 8%;
+    margin-top: 8%;
 }
-.phone_background{
+
+.phone_background {
+    background-image: url(images/phone.png);
+    background-repeat: no-repeat;
+    background-position: 55% 75%;
+}
+
+.phone {
+    margin-left: 60%;
+    margin-top: 15%;
+    text-align:left;
+}
+
+.phone_xs {
 	background-image: url(images/phone.png);
-	background-repeat: no-repeat;
-	background-position: 55% 75%;
+    background-repeat: no-repeat;
+    background-position: 0% 75%;
+    position: relative;
+    left: 26%;
+    top: 19px;
+    padding-left:10%;
+}
 
-}
-.phone{
-	margin-left: 60%;
-	margin-top: 15%;
-}
 .navbar-toggle > span {
-	background: #754b23;
-}
-.nav>li>a:hover {
-  background-color: #00ECFF;
+    background: #754b23;
 }
 
+.nav>li>a:hover {
+    background-color: #00ECFF;
+}
+
+@media screen and (max-width: 325px) {
+    .copyright {
+        font-size: 9px;
+    }
+}

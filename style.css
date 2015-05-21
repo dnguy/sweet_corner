@@ -63,7 +63,7 @@ body {
     height: 80px;
 }
 
-.footer > div > p {
+.footer > div > .footer,.copyright {
     color: white;
     font-size: 11px;
 }
@@ -71,6 +71,12 @@ body {
 .copyright {
     margin-top: 10%;
     padding-left: 38%;
+}
+.copyright_xs{
+color:white;
+font-size:9px;
+margin-top: 5%;
+margin-left:20%;
 }
 
 .dots_footer {
@@ -88,6 +94,7 @@ body {
     margin-left: 60%;
     margin-top: 15%;
     text-align:left;
+    color: white;
 }
 
 .phone_xs {
@@ -96,8 +103,9 @@ body {
     background-position: 0% 75%;
     position: relative;
     left: 26%;
-    top: 19px;
+    top: 7px;
     padding-left:10%;
+    color: white;
 }
 
 .navbar-toggle > span {
@@ -106,10 +114,4 @@ body {
 
 .nav>li>a:hover {
     background-color: #00ECFF;
-}
-
-@media screen and (max-width: 325px) {
-    .copyright {
-        font-size: 9px;
-    }
 }

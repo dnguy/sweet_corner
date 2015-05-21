@@ -65,14 +65,8 @@ body{
 	margin-left: 60%;
 	margin-top: 15%;
 }
-button{
-	background:black;
-}
-.navbar-toggle{
-	background: grey;
-}
 .navbar-toggle > span {
-	background: white;
+	background: #754b23;
 }
 .nav>li>a:hover {
   background-color: #00ECFF;

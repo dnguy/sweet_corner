@@ -10,21 +10,21 @@
         <div class="col-sm-6 hidden-xs">
             <div class="col-sm-10">
                 <h1>Contact Form</h1>
-                <form role="form">
+                <form role="form" action="php_mailer/mail_example/mail_withmailer.php" method="post">
                     <div class="form-group">
-                        <input type="name" class="form-control" id="name" placeholder="Name">
+                        <input type="name" name="name" class="form-control" id="name" placeholder="Name">
                     </div>
                     <div class="form-group">
-                        <input type="email" class="form-control" id="email" placeholder="Email">
+                        <input type="email" name="email" class="form-control" id="email" placeholder="Email">
                     </div>
                     <div class="form-group">
-                        <input type="phone" class="form-control" id="phone" placeholder="Phone">
+                        <input type="phone" name="phone" class="form-control" id="phone" placeholder="Phone">
                     </div>
                     <div class="form-group">
-                        <input type="subject" class="form-control" id="subject" placeholder="Subject">
+                        <input type="subject" name="subject" class="form-control" id="subject" placeholder="Subject">
                     </div>
                     <div class="form-group">
-                        <textarea type="message" class="form-control" id="message" placeholder="Message"></textarea>
+                        <textarea type="message" name="message" class="form-control" id="message" placeholder="Message"></textarea>
                     </div>
                     <button type="submit" class="btn btn-default pull-right" id="form_button">Send</button>
                 </form>

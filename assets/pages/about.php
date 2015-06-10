@@ -1,5 +1,5 @@
-       <div class="content-home row strips_1">
-                    <div class="col-xs-7 col-sm-7 description">
+       <div class="content-about row strips_1">
+                    <div class="col-xs-11 col-sm-7 description">
                         <h3>Delicious cupcakes, magical moments!</h3>
                         <p>Sweet Corner is growing fast. Our delicious cupcakes of all sizes, shapes and colours and tastes are creating a real wow factor.</p>
                         <p>Our delicious cupcakes are different from other bakeries. Why? Well, not only are our cupcakes and baked goods prepared fresh every day, we also create personalised cupcakes in any size and shape just for you! Simply Delicious and unique.</p>

@@ -63,7 +63,8 @@ body {
     height: 80px;
 }
 
-.footer > div > .footer,.copyright {
+.footer > div > .footer,
+.copyright {
     color: white;
     font-size: 11px;
 }
@@ -72,12 +73,13 @@ body {
     margin-top: 10%;
     padding-left: 38%;
 }
-.copyright_xs{
-color:white;
-font-size:9px;
-margin-top: 5%;
-margin-left:8%;
-width: 102%;
+
+.copyright_xs {
+    color: white;
+    font-size: 9px;
+    margin-top: 5%;
+    margin-left: 8%;
+    width: 102%;
 }
 
 .dots_footer {
@@ -94,18 +96,18 @@ width: 102%;
 .phone {
     margin-left: 60%;
     margin-top: 15%;
-    text-align:left;
+    text-align: left;
     color: white;
 }
 
 .phone_xs {
-	background-image: url(../images/phone.png);
+    background-image: url(../images/phone.png);
     background-repeat: no-repeat;
     background-position: 0% 75%;
     position: relative;
     left: 26%;
     top: 7px;
-    padding-left:10%;
+    padding-left: 10%;
     color: white;
 }
 
@@ -116,66 +118,92 @@ width: 102%;
 .nav>li>a:hover {
     background-color: #00ECFF;
 }
-.demo{
+
+.demo {
     margin-bottom: -99999px;
     padding-bottom: 99999px;
 }
 
 #equalheight {
-    overflow: hidden; 
+    overflow: hidden;
 }
-.dots_up{
+
+.dots_up {
     float: right;
-    margin-right:34%;
+    margin-right: 34%;
 }
+
 .down_dots {
     margin-left: 20%;
     margin-top: 15%;
 }
-#name, #subject {
+
+#name,
+#subject {
     background-color: #e86b35;
 }
-#email, #message {
+
+#email,
+#message {
     background-color: #f6b53e;
 }
-#phone, #form_button {
+
+#phone,
+#form_button {
     background-color: #06b4af;
 }
+
 #form_button {
-    width:  155px;
+    width: 155px;
 }
+
 .hours > div {
     background: #f6ede6;
     text-align: center;
     margin-bottom: 1%;
 }
+
 .hours > .col-xs-6 {
     margin-left: 1%;
 }
+
 .hours {
     margin: 7% 0;
 }
-.form_xs{
-    margin-bottom:10%;
+
+.form_xs {
+    margin-bottom: 10%;
 }
-.office_email{
+
+.office_email {
     color: #06b4af;
 }
-.form-group ::-webkit-input-placeholder {
 
-   color: #754b23;
+.form-group ::-webkit-input-placeholder {
+    color: #754b23;
 }
+
 .strips_1 {
     background-image: url(../images/strips1.png);
     background-repeat: repeat-y;
     background-size: 25% auto;
     background-position: 100% 0;
 }
-.dots_box1{
-      margin-top: 13%;
-  margin-left: 3%;
-}
-.box1 {
-    margin:5% 0;
+
+.dots_box1 {
+    margin-top: 13%;
+    margin-left: 3%;
 }
 
+.box1 {
+    margin: 5% 0;
+}
+
+@media (max-width: 480px) {
+    .strips_1, .strips_background {
+          background-size: 10% auto;
+    }
+    #main_content{
+        margin-bottom: 10%;
+    }
+}

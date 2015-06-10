@@ -1,5 +1,5 @@
-       <div class="content-home row strips_1">
-                    <div class="col-xs-7 col-sm-7 description">
+       <div class="content-services row strips_1">
+                    <div class="col-xs-11 col-sm-7 description">
                         <h3>We cherish the sweet moments...</h3>
                         <p>For couples looking beyond the traditional wedding, Sweet Corner offers the modern day alternative to a traditional wedding cake. Stack your wedding cupcakes on towering tiers or treat each guest to a sweet token of your wedded bliss.</p>
                         <p>Wedding cupcake prices average about $3.00 per person, depending on how elaborate your cake design is.</p>

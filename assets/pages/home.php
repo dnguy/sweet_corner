@@ -1,5 +1,5 @@
 <div class="content-home row strips_background">
-    <div class="col-xs-7 col-sm-7 description">
+    <div class="col-xs-11 col-sm-7 description">
         <h3>We cherish the sweet moments...</h3>
         <p>Sweet corner's story began first from our passion for sweets, which is inspired by our everyday job and also by the acknowledged weakness for sweets.</p>
         <p>For us, the Sweet corner means: the right amount of sweet, flawless appearance, the combination of shape, color and proportion and a right and balanced decor for the event.</p>

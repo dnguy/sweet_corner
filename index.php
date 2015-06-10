@@ -1,3 +1,6 @@
+<?
+$pages= ['home'=>'assets/pages/home.php', 'about'=>'assets/pages/about.php', 'services'=>'assets/pages/services.php','contact'=>'assets/pages/contact.php']
+?>
 <!DOCTYPE html>
 <html>
 
@@ -12,7 +15,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 </head>
 
-<body onload="loadpage('home')">
+<body onload="$pages[$_GET['page']]">
     <div class="container">
         <div class="row">
             <img class="col-xs-11 col-sm-12" src="images/header.png">
@@ -23,19 +26,19 @@
             </button>
             <div class="col-sm-12 hidden-xs">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a class="home_link">HOME</a></li>
-                    <li><a class="about_link">ABOUT US</a></li>
-                    <li><a class="services_link">SERVICES</a></li>
-                    <li><a class="contact_link">CONTACT US</a></li>
+                    <li><a href="index.php?page=home">HOME</a></li>
+                    <li><a href="index.php?page=about">ABOUT US</a></li>
+                    <li><a href="index.php?page=services">SERVICES</a></li>
+                    <li><a href="index.php?page=contact">CONTACT US</a></li>
                 </ul>
             </div>
             <div class="container hidden-sm hidden-md hidden-lg">
                 <div class="collapse navbar-collapse navHeaderCollapse well col-xs-12">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a class="home_link">HOME</a></li>
-                        <li><a class="about_link">ABOUT US</a></li>
-                        <li><a class="services_link">SERVICES</a></li>
-                        <li><a class="contact_link">CONTACT US</a></li>
+                        <li><a href="index.php?page=home">HOME</a></li>
+                        <li><a href="index.php?page=about">ABOUT US</a></li>
+                        <li><a href="index.php?page=services">SERVICES</a></li>
+                        <li><a href="index.php?page=contact">CONTACT US</a></li>
                     </ul>
                 </div>
             </div>
@@ -43,7 +46,15 @@
             <p class="col-xs-12 intro_statement">We deliver cupcakes for the important events in your life!</p>
             <div class="col-xs-12 strip"></div>
             <section class="col-xs-12" id="main_content">
-               
+               <? 
+               if(!isset($_GET['page'])){
+                $_GET['page']= 'home';
+                include($pages[$_GET['page']]);
+               }
+               else {
+               include_once($pages[$_GET['page']]);
+           }
+               ?>
             </section>
             <div class="col-xs-12 footer">
                 <div class="col-sm-2 hidden-xs"><img class="dots_footer" src="images/dots-footer.png"></div>
